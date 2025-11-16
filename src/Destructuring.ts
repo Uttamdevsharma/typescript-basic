@@ -9,8 +9,8 @@ const person = {
     favouriteColor: "black"
    
 }
-const {favouriteColor , name:{lastName}} = person
-console.log(favouriteColor,lastName)
+const {favouriteColor : myfavouriteColor , name:{lastName}} = person   //use name alias
+console.log(myfavouriteColor,lastName)
 
 
 
