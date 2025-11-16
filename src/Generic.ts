@@ -19,7 +19,11 @@ const mark : Mark<number,number> = [60,60]
 
 //for Array of object
 
-const person : GenericArray<{name :string,age:number}> =[
+type User = {
+    name :string,
+    age:number
+}
+const person : GenericArray<User> =[
     {
         name : "Uttam Sharma",
         age : 25
