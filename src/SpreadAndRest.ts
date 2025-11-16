@@ -10,7 +10,7 @@ console.log(friends)
 
 
 //spread operator - object
-const person = {
+const person1 = {
     name : "Uttam sharma",
 }
 
@@ -19,5 +19,14 @@ const otherInfo = {
     add : "dinajpur"
 }
 
-const userInfo = { ...person , ...otherInfo}
+const userInfo = { ...person1 , ...otherInfo}
 console.log(userInfo)
+
+
+//Rest operator
+const person = (...friends :string[]) => {
+    friends.forEach((friend : String) => console.log(`Invite to ${friend}`))
+    
+
+}
+person("uttam","alif","NURU")
