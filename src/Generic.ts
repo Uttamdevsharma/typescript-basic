@@ -1,5 +1,5 @@
 
-//for primitive 
+//generic for array
 type GenericArray<value> = Array<value>
 
 const person :GenericArray<string> = ["Uttam","Nuru","Alif"]
@@ -7,7 +7,6 @@ const person :GenericArray<string> = ["Uttam","Nuru","Alif"]
 const mark :GenericArray<number> = [10,20,30,40]
 
 const isValid: GenericArray<boolean> = [true,false,true,false]
-
 
 
 
