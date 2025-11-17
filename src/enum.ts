@@ -10,5 +10,5 @@ const accessRole = (role : string) => {
     }else return false
 }
 
-const res1 = accessRole("Admin")
+const res1 = accessRole(userRoles.Admin)
 console.log(res1)
